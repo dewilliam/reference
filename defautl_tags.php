@@ -1,5 +1,5 @@
 <?php
-	include_once('include/mysql_connection.php');
+	include_once('mysql_connection.php');
 	include_once('tags_summary.php');
 	function default_tags($email){
 		$like_list_query="select to_email from niubility where from_email='$email'";
