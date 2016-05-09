@@ -1,6 +1,6 @@
 <?php
 	include_once('include/mysql_connection.php');
-	include_once('include/word_similarity.php');
+	include_once('word_similarity.php');
 	include_once('tags_summary.php');
 	// $start=microtime(true);
 	$email=$_POST['email'];
